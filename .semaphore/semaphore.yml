@@ -14,4 +14,4 @@ blocks:
           parallelism: 4
       prologue:
         commands:
-          - lscpu
+          - whoami && pwd
