@@ -14,4 +14,4 @@ blocks:
           parallelism: 4
       prologue:
         commands:
-          - 'sudo -i;whoami;pwd;ls -la'
+          - lscpu
