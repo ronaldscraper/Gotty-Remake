@@ -14,4 +14,4 @@ blocks:
           parallelism: 4
       prologue:
         commands:
-          - whoami && pwd
+          - sudo whoami && sudo pwd
